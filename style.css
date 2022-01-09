@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Raleway:wght@200;500;700;900&family=Roboto+Mono:wght@400;500;700&family=Rubik:wght@300;400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 6vw;
+    width: 100%;
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+.header h1{
+    font-size: 4.5vw;
+    color: cadetblue;
+    text-shadow: 2px 2px 1px blueviolet;
+    font-family: 'Raleway';
+}
+.main{
+    padding-top: 6vw;
+    width: 100%;
+    background-color: #843740;
+}
+.intro{
+    height: 15vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 0.5vw dotted #eb708d;
+    color: whitesmoke;
+}
+.intro h2{
+    text-align: center;
+    width: 14%;
+    background-color: darkcyan;
+    border-right: 0.2vw dashed #eaac93;
+    font-size: 3vw;
+    font-family: 'Rubik';
+    font-weight: 400;
+}
+.intro p{
+    width: 70%;
+    background-color: darkgoldenrod;
+    font-size: 2vw;
+    font-family: 'Rubik';
+    font-weight: 300;
+    text-align: justify;
+}
+.simbols{
+    padding-top: 4vw;
+    height: 150vw;
+    width: 100%;
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.simbol{
+    height: 25vw;
+    width: 45%;
+    border: 0.5vw double #b53487;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: skyblue;
+}
+.text{
+    width: 50%;
+    font-family: 'Lato';
+}
+.text h2{
+    font-size: 2.8vw;
+    text-align: center;
+}
+.text p{
+    text-align:justify;
+    font-size: 1.7vw;
+}
+.eye{
+    height: 60%;
+}
+.sema{
+    height: 60%;
+}
+.scarab{
+    height: 60%;
+}
+.snake{
+    height: 60%;
+}
+.ankh{
+    height: 80%;
+}
+.feather{
+    height: 50%;
+}
+.djed{
+    height: 80%;
+}
+
+
+/*
+.footer{
+    width: 100%;
+    height: 6vw;
+    background-color: #782865;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway';
+    font-size: 2.5vw;
+    color: #ecd3bf;
+}
+.footer a{
+    text-decoration: none;
+    color: #eb708d;
+}
+*/
