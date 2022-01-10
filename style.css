@@ -8,7 +8,7 @@
 .header{
     height: 6vw;
     width: 100%;
-    background-color: yellowgreen;
+    background-color: #feff03;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,58 +17,56 @@
 
 .header h1{
     font-size: 4.5vw;
-    color: cadetblue;
-    text-shadow: 2px 2px 1px blueviolet;
+    color: #677c2d;
+    text-shadow: 2px 2px 1px #67331d;
     font-family: 'Raleway';
 }
 .main{
     padding-top: 6vw;
     width: 100%;
-    background-color: #843740;
+    background-color: #1b0545;
 }
 .intro{
-    height: 15vw;
+    height: 20vw;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    border-bottom: 0.5vw dotted #eb708d;
+    border-bottom: 0.5vw dotted #c2dfc1;
     color: whitesmoke;
 }
 .intro h2{
     text-align: center;
-    width: 14%;
-    background-color: darkcyan;
-    border-right: 0.2vw dashed #eaac93;
-    font-size: 3vw;
+    width: 20%;
+    padding: 1%;
+    border-right: 0.2vw dashed  #c8d5ff;
+    font-size: 3.5vw;
     font-family: 'Rubik';
     font-weight: 400;
 }
 .intro p{
     width: 70%;
-    background-color: darkgoldenrod;
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-family: 'Rubik';
     font-weight: 300;
     text-align: justify;
 }
 .simbols{
     padding-top: 4vw;
-    height: 150vw;
+    height: 125vw;
     width: 100%;
-    background-color: darkgray;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .simbol{
-    height: 25vw;
-    width: 45%;
-    border: 0.5vw double #b53487;
+    height: 22vw;
+    width: 47%;
+    border: 0.5vw double #fed403;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: skyblue;
+    background-color: #c8d5ff;
 }
 .text{
     width: 50%;
@@ -103,22 +101,27 @@
 .djed{
     height: 80%;
 }
-
-
-/*
+.tyet{
+    height: 70%;
+}
+.tauret{
+    height: 70%;
+}
+.bes{
+    height: 70%;
+}
 .footer{
     width: 100%;
-    height: 6vw;
-    background-color: #782865;
+    height: 7vw;
+    background-color: #feff03;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Raleway';
     font-size: 2.5vw;
-    color: #ecd3bf;
+    color: #677c2d;
 }
 .footer a{
     text-decoration: none;
-    color: #eb708d;
+    color: #67331d;
 }
-*/
